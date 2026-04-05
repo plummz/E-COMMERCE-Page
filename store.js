@@ -36,88 +36,88 @@ const PRODUCTS = [
 
   // ── WATCHES ──
   // To add image: change image:"" to image:"smartwatch.jpg" (put smartwatch.jpg in folder)
-  { id:9,  name:"NexGen Smart Watch Pro",  category:"watches", price:2499, originalPrice:4500, image:"", rating:4.7, sold:892,  badge:"NEW",
+  { id:9,  name:"NexGen Smart Watch Pro",  category:"watches", price:2499, originalPrice:4500, image:"smartwatch1.png" , rating:4.7, sold:892,  badge:"NEW",
     desc:"Feature-packed smartwatch with health monitoring, GPS, and 7-day battery life.",
     variations:["Black 42mm","Black 46mm","Silver 42mm","Silver 46mm","Rose Gold 42mm","Navy Blue 46mm","Space Grey 42mm","White 46mm","Red 42mm","Green 46mm"] },
-  { id:10, name:"Classic Analog Watch",    category:"watches", price:1299, originalPrice:2200, image:"", rating:4.5, sold:445,  badge:null,
+  { id:10, name:"Classic Analog Watch",    category:"watches", price:1299, originalPrice:2200, image:"analogwatch.png", rating:4.5, sold:445,  badge:null,
     desc:"Elegant timepiece with genuine leather strap and sapphire crystal glass.",
     variations:["Brown Leather","Black Leather","Blue Dial","White Dial","Chronograph Silver","Chronograph Gold","Minimalist Black","Rose Gold","Gunmetal","Two-Tone"] },
-  { id:11, name:"Sports Tracker Watch",   category:"watches", price:899,  originalPrice:1800, image:"", rating:4.6, sold:1230, badge:"SALE",
+  { id:11, name:"Sports Tracker Watch",   category:"watches", price:899,  originalPrice:1800, image:"sportstracker.png", rating:4.6, sold:1230, badge:"SALE",
     desc:"Waterproof sports watch with step counter, heart rate, and multi-sport modes.",
     variations:["Black","Blue","Red","Green","Orange","Yellow","Purple","White","Camo","Pink"] },
 
   // ── LAPTOPS ──
   // To add image: change image:"" to image:"laptop.jpg"
-  { id:12, name:"NexBook Air 14\"",        category:"laptops", price:28999, originalPrice:45000, image:"", rating:4.8, sold:234, badge:"HOT",
+  { id:12, name:"NexBook Air 14\"",        category:"laptops", price:28999, originalPrice:45000, image:"inteli5.png", rating:4.8, sold:234, badge:"HOT",
     desc:"Ultra-thin laptop with Intel Core i5, 16GB RAM, 512GB SSD, all-day battery.",
     variations:["i5 8GB 256GB Silver","i5 8GB 256GB Space Grey","i5 16GB 512GB Silver","i5 16GB 512GB Space Grey","i7 16GB 512GB Silver","i7 16GB 1TB Silver","i7 32GB 1TB Space Grey","Ryzen 5 8GB 256GB","Ryzen 7 16GB 512GB","Ryzen 9 32GB 1TB"] },
-  { id:13, name:"NexBook Gaming Pro 15\"", category:"laptops", price:49999, originalPrice:75000, image:"", rating:4.9, sold:98,  badge:"BESTSELLER",
+  { id:13, name:"NexBook Gaming Pro 15\"", category:"laptops", price:49999, originalPrice:75000, image:"rtx4060.png", rating:4.9, sold:98,  badge:"BESTSELLER",
     desc:"Gaming powerhouse with RTX 4060, i7 processor, 144Hz display, RGB keyboard.",
     variations:["RTX 4060 16GB","RTX 4060 32GB","RTX 4070 16GB","RTX 4070 32GB","RTX 4080 32GB","RTX 4080 64GB","RTX 4090 32GB","RTX 4090 64GB","AMD RX 7600 16GB","AMD RX 7700 32GB"] },
-  { id:14, name:"NexBook Chromebook 11\"", category:"laptops", price:8999,  originalPrice:15000, image:"", rating:4.4, sold:567, badge:null,
+  { id:14, name:"NexBook Chromebook 11\"", category:"laptops", price:8999,  originalPrice:15000, image:"chromebook.png", rating:4.4, sold:567, badge:null,
     desc:"Lightweight Chromebook for everyday use, school, and online work.",
     variations:["4GB 64GB White","4GB 64GB Black","4GB 128GB White","8GB 128GB Silver","8GB 256GB Black","Celeron 4GB 32GB","Pentium 4GB 64GB","Intel N100 8GB 128GB","Flip 360° 4GB 64GB","Touch Screen 8GB 128GB"] },
 
   // ── PHONES ──
   // To add image: change image:"" to image:"phone.jpg"
-  { id:15, name:"NexPhone 15 Pro",  category:"phones", price:39999, originalPrice:55000, image:"", rating:4.9, sold:3421, badge:"HOT",
+  { id:15, name:"NexPhone 15 Pro",  category:"phones", price:39999, originalPrice:55000, image:"snapgen3.png", rating:4.9, sold:3421, badge:"HOT",
     desc:"Flagship smartphone with 200MP camera, Snapdragon 8 Gen 3, 5G ready.",
     variations:["128GB Black","128GB White","128GB Blue","128GB Green","256GB Black","256GB White","256GB Titanium","512GB Black","512GB White","1TB Black"] },
-  { id:16, name:"NexPhone Lite",    category:"phones", price:12999, originalPrice:18000, image:"", rating:4.6, sold:8900, badge:"BESTSELLER",
+  { id:16, name:"NexPhone Lite",    category:"phones", price:12999, originalPrice:18000, image:"nexphonelite.png", rating:4.6, sold:8900, badge:"BESTSELLER",
     desc:"Affordable powerhouse with 64MP camera, 5000mAh battery, fast charging.",
     variations:["64GB Black","64GB Blue","64GB Green","128GB Black","128GB White","128GB Purple","256GB Black","256GB Blue","Special Edition Gold","NFC Edition 128GB"] },
-  { id:17, name:"NexPhone Fold",    category:"phones", price:69999, originalPrice:95000, image:"", rating:4.8, sold:156,  badge:"NEW",
+  { id:17, name:"NexPhone Fold",    category:"phones", price:69999, originalPrice:95000, image:"foldphone1.png", rating:4.8, sold:156,  badge:"NEW",
     desc:"Foldable smartphone with 7.6\" inner display and dual-screen multitasking.",
     variations:["256GB Black","256GB Beige","256GB Silver","512GB Black","512GB Phantom Green","1TB Black","Pen Edition 256GB","Pen Edition 512GB","Luxury Gold 512GB","Diamond Edition"] },
 
   // ── HEADPHONES ──
   // To add image: change image:"" to image:"headphones.jpg"
-  { id:18, name:"NexSound Pro Wireless",   category:"headphones", price:2999, originalPrice:5500, image:"", rating:4.8, sold:4230, badge:"BESTSELLER",
+  { id:18, name:"NexSound Pro Wireless",   category:"headphones", price:2999, originalPrice:5500, image:"headphonewireless1.png", rating:4.8, sold:4230, badge:"BESTSELLER",
     desc:"40-hour battery ANC headphones with crystal-clear audio and foldable design.",
     variations:["Black","White","Navy Blue","Midnight Green","Rose Gold","Matte Silver","Transparent","Red","Copper Brown","Limited Purple"] },
-  { id:19, name:"NexBuds True Wireless",   category:"headphones", price:1299, originalPrice:2500, image:"", rating:4.7, sold:9870, badge:"HOT",
+  { id:19, name:"NexBuds True Wireless",   category:"headphones", price:1299, originalPrice:2500, image:"headphonewireless2.png", rating:4.7, sold:9870, badge:"HOT",
     desc:"True wireless earbuds with ANC, 8hr battery, IPX5 water resistant.",
     variations:["Black","White","Blue","Coral","Sage Green","Lavender","Yellow","Clear","Midnight","Rose"] },
-  { id:20, name:"NexSound Gaming Headset", category:"headphones", price:1799, originalPrice:3200, image:"", rating:4.6, sold:2100, badge:null,
+  { id:20, name:"NexSound Gaming Headset", category:"headphones", price:1799, originalPrice:3200, image:"headphonewireless3.png", rating:4.6, sold:2100, badge:null,
     desc:"7.1 surround sound gaming headset with retractable mic and RGB lighting.",
     variations:["Black RGB","White RGB","Red Black","Blue Black","Camo","Pink","All Black","Silver","Rose Gold","Neon Green"] },
 
   // ── KEYBOARDS ──
   // To add image: change image:"" to image:"keyboard.jpg"
-  { id:21, name:"NexKey Mechanical 75%",  category:"keyboards", price:2499, originalPrice:4000, image:"", rating:4.9, sold:1870, badge:"HOT",
+  { id:21, name:"NexKey Mechanical 75%",  category:"keyboards", price:2499, originalPrice:4000, image:"keyboard1.png", rating:4.9, sold:1870, badge:"HOT",
     desc:"Hot-swappable mechanical keyboard with RGB, gasket mount, premium feel.",
     variations:["Red Switch Black","Red Switch White","Blue Switch Black","Brown Switch Black","Brown Switch White","Silent Red White","Linear Black","Tactile Purple","Speed Silver","Clicky Green"] },
-  { id:22, name:"NexKey Wireless Compact", category:"keyboards", price:1499, originalPrice:2800, image:"", rating:4.7, sold:3400, badge:null,
+  { id:22, name:"NexKey Wireless Compact", category:"keyboards", price:1499, originalPrice:2800, image:"keyboard2.png", rating:4.7, sold:3400, badge:null,
     desc:"Compact 60% wireless keyboard, Bluetooth 5.0, 3-device pairing, 30-day battery.",
     variations:["White","Black","Pink","Blue","Grey","Cream","Sage","Lavender","Mint","Dark Mode"] },
 
   // ── SHOES ──
   // To add image: change image:"" to image:"shoes.jpg"
-  { id:23, name:"NexRun Trainer Pro",       category:"shoes", price:3499, originalPrice:5500, image:"", rating:4.7, sold:2340, badge:"NEW",
+  { id:23, name:"NexRun Trainer Pro",       category:"shoes", price:3499, originalPrice:5500, image:"shoes1.png", rating:4.7, sold:2340, badge:"NEW",
     desc:"Responsive running shoes with carbon fiber plate and ultra-light foam.",
     variations:["White/Black US7","White/Black US8","White/Black US9","White/Black US10","White/Black US11","Black/Red US8","Black/Red US9","Black/Red US10","Navy/White US8","Grey/Lime US9"] },
-  { id:24, name:"NexStep Lifestyle Sneaker", category:"shoes", price:2199, originalPrice:3800, image:"", rating:4.6, sold:5670, badge:"BESTSELLER",
+  { id:24, name:"NexStep Lifestyle Sneaker", category:"shoes", price:2199, originalPrice:3800, image:"shoes2.png", rating:4.6, sold:5670, badge:"BESTSELLER",
     desc:"Premium everyday sneakers with cushioned insole and durable outsole.",
     variations:["White US7","White US8","White US9","White US10","Black US8","Black US9","Black US10","Grey US8","Beige US9","Navy US10"] },
 
   // ── FASHION ──
   // To add image: change image:"" to image:"shirt.jpg"
-  { id:25, name:"NexWear Graphic Tee", category:"fashion", price:399, originalPrice:699, image:"", rating:4.5, sold:12400, badge:"BESTSELLER",
+  { id:25, name:"NexWear Graphic Tee", category:"fashion", price:399, originalPrice:699, image:"whiteT1.png", rating:4.5, sold:12400, badge:"BESTSELLER",
     desc:"Premium 100% cotton graphic tee, pre-shrunk, double-stitched collar.",
     variations:["White XS","White S","White M","White L","White XL","Black S","Black M","Black L","Black XL","Black XXL","Grey M","Grey L","Navy M","Navy L","Red M"] },
-  { id:26, name:"NexWear Polo Shirt",  category:"fashion", price:599, originalPrice:999, image:"", rating:4.6, sold:8900, badge:null,
+  { id:26, name:"NexWear Polo Shirt",  category:"fashion", price:599, originalPrice:999, image:"poloshirt1.png", rating:4.6, sold:8900, badge:null,
     desc:"Breathable pique polo with embroidered logo, perfect for work or casual.",
     variations:["White S","White M","White L","White XL","Black M","Black L","Navy S","Navy M","Navy L","Grey M","Grey L","Maroon M","Green M","Blue XL","Beige L"] },
-  { id:27, name:"NexWear Hoodie",      category:"fashion", price:999, originalPrice:1800, image:"", rating:4.8, sold:4560, badge:"HOT",
+  { id:27, name:"NexWear Hoodie",      category:"fashion", price:999, originalPrice:1800, image:"hoodie1.png", rating:4.8, sold:4560, badge:"HOT",
     desc:"Fleece-lined hoodie with kangaroo pocket, adjustable drawstring.",
     variations:["Black S","Black M","Black L","Black XL","White S","White M","White L","Grey M","Grey L","Navy M","Navy L","Green M","Maroon L","Pink M","Cream S"] },
 
   // ── BAGS ──
   // To add image: change image:"" to image:"bag.jpg"
-  { id:28, name:"NexBag Everyday Backpack", category:"bags", price:1299, originalPrice:2200, image:"", rating:4.7, sold:3210, badge:"NEW",
+  { id:28, name:"NexBag Everyday Backpack", category:"bags", price:1299, originalPrice:2200, image:"backpack1.png", rating:4.7, sold:3210, badge:"NEW",
     desc:"30L waterproof backpack with laptop compartment, USB charging port, anti-theft.",
     variations:["Black","Navy","Grey","Olive","Camo","Brown","Burgundy","Sky Blue","Rose","Beige"] },
-  { id:29, name:"NexBag Crossbody Slim",    category:"bags", price:799,  originalPrice:1400, image:"", rating:4.6, sold:6780, badge:null,
+  { id:29, name:"NexBag Crossbody Slim",    category:"bags", price:799,  originalPrice:1400, image:"crossbodybag1.png", rating:4.6, sold:6780, badge:null,
     desc:"Compact crossbody bag with RFID-blocking pocket, adjustable strap.",
     variations:["Black","Brown","Navy","Tan","Grey","White","Red","Olive","Pink","Beige"] },
 
@@ -396,3 +396,4 @@ function initNav() {
   }
 }
 document.addEventListener("DOMContentLoaded", initNav);
+
